@@ -34,3 +34,5 @@ docker run --rm -p 8000:8000 ghcr.io/TU_USUARIO/telco-churn-cicd:latest
 El paquete debe ser público o debes autenticarte en GHCR. Este workflow publica la imagen; no realiza despliegue automático a producción.
 
 **Nota:** el modelo se entrenó con datos sintéticos solo para hacer reproducible la práctica. No utilizar en decisiones reales.
+
+Proyecto Telco Customer Churn con integración continua.
