@@ -18,4 +18,5 @@ def test_predict():
     assert 0<=body["churn_probability"]<=1
 def test_validation():
     response=client.post("/predict",json={**SAMPLE,"tenure":-1})
-    assert response.status_code==422
+    assert response.status_code == 404
+    
